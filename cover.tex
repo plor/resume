@@ -1,0 +1,70 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{oldstyle}                           % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Jordan}{Walker}
+% \title{Resumé title}                               % optional, remove / comment the line if not wanted
+\address{104 14th Street}{Prairie du Sac, WI 53578}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[phone]{(608)~370~1908}                   % optional, remove / comment the line if not wanted
+\email{jordan@jordanwalker.us}                               % optional, remove / comment the line if not wanted
+% \homepage{www.johndoe.com}                         % optional, remove / comment the line if not wanted
+% \extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+% \photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+% \quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%-----       letter       ---------------------------------------------------------
+% recipient data
+\recipient{The Weather Company}{401 Charmany Dr \#200\\Madison, WI 53719}
+\date{December 28, 2018}
+\opening{Dear Sir or Madam,}
+\closing{Sincerely,}
+\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+My name is Jordan Walker and I am a software engineer seeking new opportunities in my career.  I previously worked with Phethala Thongsavanh at the US Geological Survey.  He recently took a position with your company and has told me that there are some chances to work on interesting projects in an emerging Agile environment.  I would like to hear more about the opportunities available, and see whether or not I would be a good fit at your company.
+
+With over seven years of experience at a premiere science agency of the federal government, as well as several years of student employment working with weather data operations, I have found myself drawn to programming systems related to environmental data and scientific programming.  In this time I picked up a lot of the domain knowledge that makes me a more productive programmer and allows me to have more effective communication with the domain experts.  Within the same time period I have worked on adopting the Agile philosophy for programming and project planning.  This philosophy and set of methodologies in my view allows for maximal team effectiveness by encouraging a consistent output with accountability and value delivery.  I am glad I have worked at an Agile workplace and have learned what it takes to make it work.  These attributes in addition to my education and programming experience make me an exceptional candidate.
+
+I am submitting my resume as I believe I am a good fit for this position.  I would like to ask for the pleasure of an interview to discuss the position in person, and find whether it is a good fit for all parties.  Thank you for taking the time to read this, and thank you for the opportunity.
+
+\makeletterclosing
+
+\end{document}
+
+
+%% end of file `template.tex'.
